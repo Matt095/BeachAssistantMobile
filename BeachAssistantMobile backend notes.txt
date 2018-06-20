@@ -1,0 +1,6 @@
+This beach assistant mobile application was created in addition to a web application. 
+This application was primarily worked on by our lead mobile developer. 
+He was able to integrate a database into the mobile application. 
+Due to lack of experience and time as well as lack of communication on his part, we were not able to integrate this database alongside the web application.  
+In future, with more experience I would like to fully integrate the database with both applications. 
+This current database only stores user information currently.  
