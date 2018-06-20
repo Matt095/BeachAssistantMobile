@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hoylake"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beach"
+    tools:context=".Hoylake">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="
+
+Hoylake
+Opening times: Open all year round
+Lifeguard cover: Yes
+Parking: Yes there is free parking close to the beach
+Dog friendly: Yes
+Toilets: Yes
+Local shops: There are shops, cafes and restaurants in Hoylake
+Ice cream: There is usually an ice cream van along the promenade"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

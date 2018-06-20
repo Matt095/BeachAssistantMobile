@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_southport"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beach"
+    tools:context=".Southport">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Southport
+Opening times: Open all year round
+Lifeguard cover: Yes
+Parking: On site parking - Beach parking off Marine Drive, Southport, £4.50-£6.00 (seasonal).
+Beach parking closed at high tides. Beachfront parking, pay and display, all year round.
+Dog friendly: Yes. Poop scoop area and there are some dog free zones.
+Toilets: Yes, in Ocean Plaza
+Local shops: Southport is a very big and busy town with lost of shops, cafes, pubs and restaurants
+Ice cream: Ice cream vans are on the beach and also there are several in town, Rossi's is a favourite"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

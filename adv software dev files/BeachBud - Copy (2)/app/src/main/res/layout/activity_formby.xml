@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_formby"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/beach"
+tools:context=".Formby">
+
+<LinearLayout
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Formby
+Opening times: Open all year round
+Lifeguard cover: No
+Parking: Parking is available at the Squirrel Reserve and beach car park, which is free to National Trust members and £3 for other visitors.
+Part of the beach car park is closed at 5.30pm daily from March - October and at 4.00pm from November - December.
+Dog friendly: Yes.
+Toilets: Yes opposite the main noticeboard at the entrance to the squirrel reserve.
+Local shops: Formby village has a variety of shops, cafes and restaurants
+Ice cream: There are usually ice cream vans dotted around the area."
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@drawable/beach"
+        tools:context=".MainMenu">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/menuText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Welcome to BeachBud please select an option."
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/beachInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beach Information" />
+            <Button
+                android:id="@+id/weather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weather" />
+            <Button
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAPS" />
+            <Button
+                android:id="@+id/compass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compass" />
+            <Button
+                android:id="@+id/sosCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SOS CALL" />
+            <Button
+                android:id="@+id/myAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>

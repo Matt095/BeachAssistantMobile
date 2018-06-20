@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_brighton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beach"
+    tools:context=".NewBrighton">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="New Brighton
+Opening times: Open all year round
+Lifeguard cover: Yes
+Parking: On site free parking by the Fort and along the promenade
+Dog friendly: Yes.
+Toilets: No public toilets
+Local shops: There is a variety of arcades, shops, cafes and restaurants
+Ice cream: There is usually an ice cream van and there are two ice cream shops, including the award-winning Cafe Cream"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ainsdale"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beach"
+    tools:context=".Ainsdale">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Ainsdale
+Opening times: Open all year round
+Lifeguard cover: No
+Parking: Beach parking off Shore Road, Ainsdale. Car park charge £4.50 - £6.00
+Dog friendly: Yes, but there is a dog free zone for 200m either side of the beach entrance at Shore Road.
+Toilets: Yes, at the beach entrance at the end of Shore Road.
+Local shops: Ainsdale village has shops, cafes and restaurants
+Ice cream: There are usually ice cream vans dotted around the area"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_west_kirby"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beach"
+    tools:context=".WestKirby">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="West Kirby
+Opening times: Open all year round
+Lifeguard cover: Yes
+Parking: You can park along the promenade, but it may be difficult to get a spot. Always check the signs. Parking at Morrisons is for customers only.
+Dog friendly: Yes
+Toilets: The public toilets are currently undergoing a revamp, but Morrisons is happy to help, there maybe a queue though! There is also public toilets on Hilbre Island, if you fancy the walk.
+Local shops: There is a variety of shops, cafes and restaurants
+Ice cream: There is ALWAYS an ice cream van along the promenade"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

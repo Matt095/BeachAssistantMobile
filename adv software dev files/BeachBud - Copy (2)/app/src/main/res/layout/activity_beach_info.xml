@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".BeachInfo"
+    android:background="@drawable/beach">
+
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Please Select Your Local Beach"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/formby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formby Beach" />
+    <Button
+        android:id="@+id/ainsdale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ainsdale Beach" />
+    <Button
+        android:id="@+id/southport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Southport Beach" />
+    <Button
+        android:id="@+id/newBrighton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Brighton" />
+    <Button
+        android:id="@+id/moreton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moreton Beach" />
+    <Button
+        android:id="@+id/hoylake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoylake Beach" />
+    <Button
+        android:id="@+id/westKirby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="west Kirby Beach" />
+</LinearLayout>
+
+
+
+</RelativeLayout>
